@@ -1,0 +1,7 @@
+{
+  "name": "netflix-ui",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
