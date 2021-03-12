@@ -21,10 +21,10 @@ export class Tab1Page {
     freeMode: true
   }
 
-  constructor(private modalCtrl: ModalController, private drwerService: DrawerService) { }
+  constructor(private modalCtrl: ModalController, private drawerService: DrawerService) { }
 
   openInfo(series){
-
+    this.drawerService.openDrawer(series.title);
   }
 
   async openCategories() {
