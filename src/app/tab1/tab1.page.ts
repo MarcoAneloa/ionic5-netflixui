@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import homeData from '../../assets/mockdata/home.json';
+import { ModalPage } from '../modal/modal.page';
 import { DrawerService } from '../services/drawer.service';
+import { modalEnterAnimation, modalLeaveAnimation } from '../modal-animation';
 
 @Component({
   selector: 'app-tab1',
@@ -25,8 +27,15 @@ export class Tab1Page {
 
   }
 
-  async openCategories(){
-    
+  async openCategories() {
+    const modal = await this.modalCtrl.create({
+      component: ModalPage,
+      cssClass: 'transparent-modal',
+      enterAnimation: modalEnterAnimation,
+      leaveAnimation: modalLeaveAnimation
+    });
+ 
+    await modal.present();
   }
 
 }

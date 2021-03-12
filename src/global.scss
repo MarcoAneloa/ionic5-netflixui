@@ -32,3 +32,15 @@
   /* Set the font family of the entire app */
   --ion-text-color: #fff;
 }
+
+.transparent-modal {
+  --background: #0000005c;
+ 
+  .modal-wrapper {
+    backdrop-filter: blur(12px);
+  }
+ 
+  ion-content {
+    --background: transparent;
+  }
+}
