@@ -1,11 +1,12 @@
 # ionic5-netflixui
 Aplicación móvil desarrollado con Ionic 5
 
-![Alt text](./ss1.png?raw=true "Optional Title")
+# Path apk
+/path/
 
-![Screenshot](ss2.png)
-
+# ScreenShot
 <p align="center">
-  <img src="ss1.png" width="350" title="hover text">
-  <img src="./ss1.png" width="350" alt="accessibility text">
+  <img src="ss3.png" width="300" title="hover text">
+  <img src="ss2.png" width="300" title="hover text">
+  <img src="ss1.png" width="300" alt="accessibility text">
 </p>
